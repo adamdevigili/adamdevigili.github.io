@@ -48,3 +48,7 @@ a:link, a:visited {
     font-family: "Courier New", Courier, monospace;
     font-size: 25px;
 }
+
+a:hover {
+    color: gray;
+}
