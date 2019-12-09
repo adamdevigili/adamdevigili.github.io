@@ -6,7 +6,6 @@ body, html {
     background-position: center;
     background-size: cover;
     position: relative;
-
 }
 
 .container {
@@ -29,13 +28,15 @@ body, html {
     color: white;
 }
 
+.main-text {
+    animation-duration: 5s;
+}
+
 .bottom-left {
     position: absolute;
     bottom: -15px;
     left: 20px;
 }
-
-
 
 hr {
     margin: auto;
