@@ -1,56 +1,107 @@
-body, html {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    background-image: url("../images/background.png");
-    background-position: center;
-    background-size: cover;
-    position: relative;
+body,
+html {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	background: linear-gradient(138deg, #20327a, #000327);
+
+	-webkit-animation: AnimationName 0s ease infinite;
+	-moz-animation: AnimationName 0s ease infinite;
+	-o-animation: AnimationName 0s ease infinite;
+	animation: AnimationName 0s ease infinite;
+
+	@-webkit-keyframes AnimationName {
+		0% {
+			background-position: 27% 0%;
+		}
+		50% {
+			background-position: 74% 100%;
+		}
+		100% {
+			background-position: 27% 0%;
+		}
+	}
+	@-moz-keyframes AnimationName {
+		0% {
+			background-position: 27% 0%;
+		}
+		50% {
+			background-position: 74% 100%;
+		}
+		100% {
+			background-position: 27% 0%;
+		}
+	}
+	@-o-keyframes AnimationName {
+		0% {
+			background-position: 27% 0%;
+		}
+		50% {
+			background-position: 74% 100%;
+		}
+		100% {
+			background-position: 27% 0%;
+		}
+	}
+	@keyframes AnimationName {
+		0% {
+			background-position: 27% 0%;
+		}
+		50% {
+			background-position: 74% 100%;
+		}
+		100% {
+			background-position: 27% 0%;
+		}
+	}
+	background-size: cover;
+	position: relative;
 }
 
 .container {
-    font-family: 'Sulphur Point', sans-serif;
-    font-size: 25px;
+	font-family: 'Sulphur Point', sans-serif;
+	font-size: 25px;
 }
 
 .top-left {
-    position: absolute;
-    top: -15px;
-    left: 20px;
+	position: absolute;
+	top: -15px;
+	left: 20px;
 }
 
 .middle {
-    position: absolute;
-    top: 48%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
+	position: absolute;
+	top: 48%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: white;
 }
 
 .main-text {
-    animation-duration: 5s;
+	animation-duration: 5s;
 }
 
 .bottom-left {
-    position: absolute;
-    bottom: -15px;
-    left: 20px;
+	position: absolute;
+	bottom: -15px;
+	left: 20px;
 }
 
 hr {
-    margin: auto;
-    width: 80%;
+	margin: auto;
+	width: 80%;
 }
 
-a:link, a:visited {
-    color: white;
-    padding: 25px 0px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+a:link,
+a:visited {
+	color: white;
+	padding: 25px 0px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
 }
 
 a:hover {
-    color: gray;
+	color: gray;
 }
